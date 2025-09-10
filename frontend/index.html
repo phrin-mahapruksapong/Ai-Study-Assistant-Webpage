@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Study Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📚 AI Study Assistant</h1>
+  </header>
+
+  <main>
+    <!-- Add Note Form -->
+  <section id="add-note-section">
+    <input type="text" id="note-title" placeholder="Enter note title" />
+    <textarea id="note-content" placeholder="Enter note content"></textarea>
+    <button id="add-note-btn">➕ Add Note</button>
+  </section>
+
+
+    <!-- Notes List -->
+    <section id="note-container">
+      <h2>Your Notes</h2>
+      <div id="note-list"></div>
+    </section>
+
+    <!-- AI Response -->
+    <section id="ai-response-container">
+      <h2>AI Summary</h2>
+      <div id="ai-response">Click "Ask AI" on a note to see summary here.</div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
