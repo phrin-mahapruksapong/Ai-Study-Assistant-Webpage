@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const apiUrl = "http://54.80.177.133:3222/notes"; 
-  const aiUrl = "http://54.80.177.133:3222/ask-ai";
+  const apiUrl = "http://54.82.205.219:3222/notes"; 
+  const aiUrl = "http://54.82.205.219:3222/ask-ai";
 
   const noteTitleInput = document.getElementById("note-title");
   const noteContentInput = document.getElementById("note-content");
